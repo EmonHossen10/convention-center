@@ -1,3 +1,54 @@
-.brightness{
-    filter: brightness(50%);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --color-primary: #0d0925;
+  --color-secondary: #6c6c6c;
+}
+/* common css */
+h1 {
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+  width: 639px;
+height: 116px;
+
+position: relative;
+left: 200px;
+bottom: 45px;
+
+}
+.paragraph {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  width: 456px;
+height: 48px;
+position: relative;
+left: 290px;
+bottom: 36px;
+
+}
+/* banner sections styles */
+.brightness {
+  filter: brightness(50%);
+}
+
+.button{
+    width: 168px;
+height: 44px;
+background: #FFFFFF;
+border-radius: 5px;
+padding: 10px;
+gap: 10px;
+font-weight: 700;
+font-size: 16px;
+color: #3F87F5;
+position: relative;
+bottom: 25px;
 }
